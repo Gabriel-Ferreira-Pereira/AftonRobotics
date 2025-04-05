@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    /* border: 2px solid black; */
+    background: rgb(121, 17, 173);
+    height: 100px;
+    width: 100;
+    display: flex;
+    position: relative;
+}
+
+.logo{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo img{
+    height: 100px;
+}
+
+.navbar{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 700px;
+    height: 100%;
+}
+.navbar nav{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 700px;
+    height: 100%;
+}
+
+.navbar nav ul{
+    /* border: 1px solid black; */
+    display: flex;
+    list-style: none;
+    width: 700px;
+    height: 100%;
+}
+
+.navbar nav ul li{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 700px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar nav ul li a{
+    /* border: 1px solid black; */
+    background: white;
+    color: blueviolet;
+    display: flex;
+    text-decoration: none;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar nav ul li i{
+    position: relative;
+    bottom: 2px;
+    right: 5px;
+    font-size: 20px;
+}
+
+.carrinho{
+    /* border: 1px solid black; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinho i{
+   color: white;
+   font-size: 30px;
+}
+
+.barra-pesquisa{
+    /* border: 1px solid black; */
+    position: relative;
+    height: 100%;
+    width: 25%;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-pesquisa input[type=text]{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+
+.barra::placeholder{
+    padding-left: 25px;
+}
+
+.barra-pesquisa i{
+    position: absolute;
+    color: blueviolet;
+    left: 5px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.segura{
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+main{
+    width: 100%;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.planos{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 8px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.fnaf1{
+    /* border: 1px solid black; */
+    height: 585px;
+    width: 500px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fnaf1 img{
+    height: 250px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.fnaf1 #fnaf1star{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.fnaf1 #fnaf1star i{
+    color: yellow;
+}
+
+.fnaf1 .textofnaf1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fnaf1 h4{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: blueviolet;
+    padding: 5px;
+}
+
+.fnaf1 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fnaf1 ul li{
+    margin-top: 5px;
+    font-size: 16px;
+    font-size: 600;
+    color: blueviolet;
+}
+
+.fnaf1 p{
+    padding: 15px;
+}
+
+.fnaf1 button{
+    position: relative;
+    top: 5px;
+    height: 70px;
+    width: 150px;
+    background: none;
+    border-radius: 10px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fnaf2{
+    height: 585px;
+    width: 500px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fnaf2 img{
+    height: 200px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.fnaf2 #fnaf2star{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.fnaf2 #fnaf2star i{
+    color: yellow;
+}
+
+.fnaf2 .textofnaf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fnaf2 h4{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: blueviolet;
+    padding: 5px;
+}
+
+.fnaf2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fnaf2 ul li{
+    margin-top: 5px;
+    font-size: 16px;
+    font-size: 600;
+    color: blueviolet;
+}
+
+.fnaf2 p{
+    padding: 15px;
+}
+
+.fnaf2 button{
+    position: relative;
+    top: 5px;
+    height: 70px;
+    width: 150px;
+    background: none;
+    border-radius: 10px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fnaf5{
+    height: 585px;
+    width: 500px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fnaf5 img{
+    height: 200px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.fnaf5 #fnaf5star{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.fnaf5 #fnaf5star i{
+    color: yellow;
+}
+
+.fnaf5 .textofnaf5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fnaf5 h4{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: blueviolet;
+    padding: 5px;
+}
+
+.fnaf5 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fnaf5 ul li{
+    margin-top: 5px;
+    font-size: 16px;
+    font-size: 600;
+    color: blueviolet;
+}
+
+.fnaf5 p{
+    padding: 15px;
+}
+
+.fnaf5 button{
+    position: relative;
+    top: 5px;
+    height: 70px;
+    width: 150px;
+    background: none;
+    border-radius: 10px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fnaf6{
+    height: 585px;
+    width: 500px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fnaf6 img{
+    height: 200px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.fnaf6 #fnaf6star{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.fnaf6 #fnaf6star i{
+    color: yellow;
+}
+
+.fnaf6 .textofnaf6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fnaf6 h4{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: blueviolet;
+    padding: 5px;
+}
+
+.fnaf6 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fnaf6 ul li{
+    margin-top: 5px;
+    font-size: 16px;
+    font-size: 600;
+    color: blueviolet;
+}
+
+.fnaf6 p{
+    padding: 15px;
+}
+
+.fnaf6 button{
+    position: relative;
+    top: 5px;
+    height: 70px;
+    width: 150px;
+    background: none;
+    border-radius: 10px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+footer{
+    border: 1px solid black;
+    background: rgb(121, 17, 173);
+    height: 100px;
+}
+
+footer h2{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
