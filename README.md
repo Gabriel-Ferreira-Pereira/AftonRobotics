@@ -66,5 +66,5 @@ GabrielFerreira
 
 
 Idealizado e criado por: Gabriel Ferreira Pereira
-A mulher que me guia: Laura Roberto Pereira
+A mulher que me guia: Laura Roberto Pereira da Silva
 Colaboradores: Caio Garcia, Guilherme Ferreira Silva, André Luiz da Silva Santos
